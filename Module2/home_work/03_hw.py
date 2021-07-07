@@ -29,3 +29,12 @@
 # 20 199.80 Rub.
 
 # TODO: your code here
+
+x = float(input("Введите положительное число x:"))
+i = 1
+
+
+while i <= 20:
+    numbers = x * i
+    i += 1
+    print(numbers)
